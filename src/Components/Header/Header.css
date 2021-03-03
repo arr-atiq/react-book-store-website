@@ -7,73 +7,73 @@
   list-style: none;
   font-family: 'Montserrat', sans-serif;
 }
-
+.navBrand{
+  display: flex;
+  line-height: 5px;
+}
+.navBrand h1{
+  font-size: 40px;
+}
+.navBrand span{
+  color: orange;
+}
+.icon{
+  color: orange;
+  font-size: 70px;
+}
+.title{
+  margin-left: 72px;
+}
 .wrapper{
-    margin-top: 20px;
-    margin-left: 300px;
+    margin-left: 80px;
     display: flex;
 
 }
 
 .wrapper .search_box{
-  width: 800px;
+  width: 650px;
   background: whitesmoke;
-  border-radius: 5px;
-  height: 55px;
+  height: 50px;
   display: flex;
   padding: 10px;
-  box-shadow: 0 8px 6px -10px #b3c6ff;
 }
-
+.menus{
+  margin-bottom: 20px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+}
+#dropdown-basic{
+  background-color: whitesmoke;
+  margin-left: 40px;
+  outline: none;
+  border: none;
+}
+.main-btn{
+  margin-left: 20px;
+}
+#navLoginBtn{
+  width: 100px;
+  height: 48px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#navSignUpBtn{
+  width: 120px;
+  height: 48px;
+  margin-left: 10px;
+  color: white;
+  background-color: orange;
+  font-weight: bold;
+}
 .wrapper .search_box .dropdown{
-  width: 150px;
-  border-right: 2px solid #dde2f1;
-  color: #9fa3b1;
-  position: relative;
+  width: 120px;
   cursor: pointer;
 }
-
-.wrapper .search_box .dropdown .default_option{
-  text-transform: uppercase;
-  padding: 13px 15px;
-  font-size: 14px;
-}
-
-.wrapper .search_box .dropdown ul{
-  position: absolute;
-  top: 70px;
-  left: -10px;
-  background: black;
-  width: 150px;
-  border-radius: 5px;
-  padding: 20px;
-  display: none;
-  box-shadow: 8px 8px 6px -10px #b3c6ff;
-}
-
-.wrapper .search_box .dropdown ul.active{
-  display: block;
-}
-
-.wrapper .search_box .dropdown ul li{
-  padding-bottom: 20px;
-}
-
-.wrapper .search_box .dropdown ul li:last-child{
-  padding-bottom: 0;
-}
-
-.wrapper .search_box .dropdown ul li:hover{
-  color: #6f768d;
-}
-
 .wrapper .search_box .dropdown:before{
   content: "";
   position: absolute;
-  top: 18px;
+  top: 10px;
   right: 20px;
-  border: 8px solid;
-  border-color: gray transparent transparent transparent ;
 }
 
 .wrapper .search_box .search_field{
@@ -96,19 +96,9 @@
 }
 .wrapper .search_box .search_field .fas{
   position: absolute;
-  top: 8px;
-  left: 580px;
+  left: 440px;
   font-size: 22px;
   color: gray;
   cursor: pointer;
-}
-
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #9fa3b1;
-}
-::-moz-placeholder { /* Firefox 19+ */
- color: #9fa3b1;
-}
-:-ms-input-placeholder { /* IE 10+ */
-  color: #9fa3b1;
+  font-weight: 100;
 }
