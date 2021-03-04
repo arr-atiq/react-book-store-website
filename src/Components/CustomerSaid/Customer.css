@@ -1,0 +1,67 @@
+.backgroundDiv{
+    width: 700px;
+    height: 800px;
+    margin-top: 50px;
+    margin-left: 350px;
+    background-color: whitesmoke;
+}
+.backgroundDiv .customer-title h1{
+    padding: 20px;
+    text-align: center;
+}
+.backgroundDiv .customer-title p{
+    text-align: center;
+    margin-top: 50px;
+    padding: 0 80px;
+}
+.mainDiv{
+   background-color: transparent;
+   margin-top: -450px;
+}
+.customer-says{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-right: 20px;
+}
+.customer-main{
+    display: flex;
+    margin-left: 15px;
+}
+.card-customer-image img{
+    width: 120px;
+    height: 350px;
+}
+.customer-paragraphDiv{
+    /* padding: 20px; */
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.customer-paragraphDiv p{
+    text-align: justify;
+    font-size: 15px;
+}
+.customer-paragraphDiv h1{
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.customer-review i{
+    font-size: 12px;
+    margin-top: 50px;
+}
+.customer-review{
+    display: flex;
+}
+.customer-review h4{
+    font-size: 15px;
+    margin-top: 50px;
+}
+.customer-review .countN{
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 52px;
+}
+.customer-review .istar{
+    color: orange;
+}

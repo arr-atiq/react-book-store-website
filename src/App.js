@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CardProduct from './Components/CardProduct/CardProduct';
 import FeatureProduct from './Components/FeatureProduct/FeatureProduct';
 import LatestNews from './Components/LatestNews/LatestNews';
+import CustomerSaid from './Components/CustomerSaid/CustomerSaid';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <CardProduct></CardProduct>
       <FeatureProduct></FeatureProduct>
       <LatestNews></LatestNews>
+      <CustomerSaid></CustomerSaid>
     </div>
   );
 };

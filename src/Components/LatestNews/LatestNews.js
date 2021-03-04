@@ -1,8 +1,6 @@
 import React from 'react';
 import image from '../../Images/gray.jpg';
 import './LatestNews.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 
 const LatestNews = () => {
     return (
