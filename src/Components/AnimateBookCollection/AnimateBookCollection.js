@@ -11,9 +11,9 @@ const AnimateBookCollection = () => {
         var store = setInterval(ourStore, 10)
         var writers = setInterval(famousWriter, 10)
         let count1 = 125000;
-        let count2 = 50100;
-        let count3 = 1300;
-        let count4 = 200;
+        let count2 = 50000;
+        let count3 = 1100;
+        let count4 = 100;
 
         function happyCustomer() {
             count1++

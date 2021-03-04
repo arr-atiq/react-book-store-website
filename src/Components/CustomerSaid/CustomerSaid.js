@@ -9,7 +9,7 @@ const CustomerSaid = () => {
         <div>
             <div className="backgroundDiv">
                 <div className="customer-title">
-                    <h1>Latest News</h1>
+                    <h1>What Customer's Said</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad cupiditate veniam totam, fugiat distinctio blanditiis maiores veritatis explicabo doloremque dolorum!</p>
                 </div>
             </div>
