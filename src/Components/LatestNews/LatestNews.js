@@ -87,6 +87,7 @@ const LatestNews = () => {
                     </div>
                 </div>
             </div>
+            <button className="view-more">View More</button>
         </main>
     );
 };

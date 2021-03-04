@@ -56,3 +56,17 @@
     color: orange;
     font-weight: bold;
 }
+.view-more{
+    margin-top: 30px;
+    margin-left: 50%;
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
