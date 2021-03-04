@@ -1,0 +1,59 @@
+.card-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-top: 20px; 
+    margin-left: 50px;
+}
+.card-main{
+    width: 380px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 15px lightgray;
+    
+}
+.card-image img{
+    width: 379px;
+    height: 180px;
+}
+.card-body h1{
+    font-size: 22px;
+    font-weight: 900;
+}
+.card-body h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn{
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.mainbtn-pricesDiv{
+    display: flex;
+}
+.mainbtn-pricesDiv h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.mainbtn-pricesDiv .cart-btn{
+    background-color: orange;
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.mainbtn-pricesDiv p{
+    margin-top: 14px;
+    font-weight: bold;
+}
