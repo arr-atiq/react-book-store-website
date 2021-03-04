@@ -2,7 +2,7 @@ import React from 'react';
 import './Customer.css'
 import image from '../../Images/gray.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar } from '@fortawesome/free-solid-svg-icons';
+import { faQuoteLeft, faQuoteRight, faStar } from '@fortawesome/free-solid-svg-icons';
 
 const CustomerSaid = () => {
     return (
@@ -17,6 +17,7 @@ const CustomerSaid = () => {
                 <div className="customer-says">
                     <div className="customer-main">
                         <div className="card-customer-image">
+                            <i><FontAwesomeIcon icon={faQuoteLeft} /></i>
                             <img src={image} alt="" />
                         </div>
                         <div className="customer-all-items">
@@ -61,6 +62,7 @@ const CustomerSaid = () => {
                     </div>
                     <div className="customer-main">
                         <div className="card-customer-image">
+                        <i className="right-quote"><FontAwesomeIcon icon={faQuoteRight} /></i>
                             <img src={image} alt="" />
                         </div>
                         <div className="customer-all-items">
