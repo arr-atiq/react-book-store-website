@@ -1,0 +1,100 @@
+.feature-title h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.feature-para{
+    width: 500px;
+    margin-left: 30%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.feature-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.feature-main{
+    display: flex;
+    margin-left: 15px;
+}
+.card-feature-image img{
+    width: 120px;
+    height: 435px;
+}
+.feature-card-body{
+    padding: 5px;
+}
+.feature-card-body .paragraph{
+    font-size: 13px;
+    margin-left: 20px;
+    text-align:justify
+}
+.feature-card-body .div-paragraph{
+    border-left: 2px solid lightgray;
+    margin-left: 20px;
+}
+.feature-card-body .best-p{
+    font-size: 15px;
+    margin-left: 10px;
+    letter-spacing: 10px;
+}
+.feature-card-body h1{
+    margin-left: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.feature-card-body h3{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.pricesDiv{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 40px;
+}
+.pricesDiv h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.pricesDiv p{
+    font-size: 12px;
+    margin-left: 25px;
+    margin-top: 53px;
+    font-weight: bold;
+}
+.pricesDiv p s{
+    color: orange;
+}
+.Buy-btn{
+    background-color: orange;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 18px;
+}
+.see-btn{
+    background-color: lightgray;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 24px;
+}
