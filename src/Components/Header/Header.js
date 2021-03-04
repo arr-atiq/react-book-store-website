@@ -2,11 +2,11 @@ import React from 'react';
 import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBookOpen, faSearch } from '@fortawesome/free-solid-svg-icons';
-import { Button, Dropdown, Navbar, } from 'react-bootstrap';
+import { Button, Dropdown} from 'react-bootstrap';
 
 const Header = () => {
     return (
-        <Navbar>
+        <main className="all-navItems">
             <div className="navBrand">
                 <i className="icon"><FontAwesomeIcon icon={faBookOpen} /> </i>
                 <h1>Book<span>land</span></h1>
@@ -33,7 +33,7 @@ const Header = () => {
                     <Button id="navSignUpBtn" variant="warning">Sign Up</Button>{' '}
                 </div>
             </div>
-        </Navbar>
+            </main>
     );
 };
 

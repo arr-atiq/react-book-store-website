@@ -7,6 +7,10 @@
   list-style: none;
   font-family: 'Montserrat', sans-serif;
 }
+.all-navItems{
+  display: flex;
+  margin-top: 60px;
+}
 .navBrand{
   display: flex;
   line-height: 5px;
@@ -44,12 +48,14 @@
 }
 #dropdown-basic{
   background-color: whitesmoke;
+  margin-top: -5px;
   margin-left: 40px;
   outline: none;
   border: none;
 }
 .main-btn{
   margin-left: 20px;
+  margin-top: -50px;
 }
 #navLoginBtn{
   width: 100px;
