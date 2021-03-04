@@ -7,6 +7,7 @@ import LatestNews from './Components/LatestNews/LatestNews';
 import CustomerSaid from './Components/CustomerSaid/CustomerSaid';
 import AnimateBookCollection from './Components/AnimateBookCollection/AnimateBookCollection';
 import NewsLetter from './Components/NewsLetter/NewsLetter';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <CustomerSaid></CustomerSaid>
       <AnimateBookCollection></AnimateBookCollection>
       <NewsLetter></NewsLetter>
+      <Footer></Footer>
     </div>
   );
 };
