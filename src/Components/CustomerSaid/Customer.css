@@ -69,3 +69,9 @@
 .customer-review .istar{
     color: orange;
 }
+.dotIcon{
+    font-size: 50px;
+    margin-left: 50%;
+    color: orange;
+    cursor: pointer;
+}
