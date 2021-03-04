@@ -5,6 +5,7 @@ import CardProduct from './Components/CardProduct/CardProduct';
 import FeatureProduct from './Components/FeatureProduct/FeatureProduct';
 import LatestNews from './Components/LatestNews/LatestNews';
 import CustomerSaid from './Components/CustomerSaid/CustomerSaid';
+import AnimateBookCollection from './Components/AnimateBookCollection/AnimateBookCollection';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <FeatureProduct></FeatureProduct>
       <LatestNews></LatestNews>
       <CustomerSaid></CustomerSaid>
+      <AnimateBookCollection></AnimateBookCollection>
     </div>
   );
 };
