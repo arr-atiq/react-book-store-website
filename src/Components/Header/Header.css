@@ -7,6 +7,10 @@
   list-style: none;
   font-family: 'Montserrat', sans-serif;
 }
+html {
+  margin:    0 auto;
+  max-width: 1200px;
+}
 .all-navItems{
   display: flex;
   margin-top: 60px;
@@ -29,13 +33,13 @@
   margin-left: 72px;
 }
 .wrapper{
-    margin-left: 80px;
+    margin-left: 20px;
     display: flex;
 
 }
 
 .wrapper .search_box{
-  width: 650px;
+  width: 550px;
   background: whitesmoke;
   height: 50px;
   display: flex;
@@ -102,7 +106,7 @@
 }
 .wrapper .search_box .search_field .fas{
   position: absolute;
-  left: 440px;
+  left: 340px;
   font-size: 22px;
   color: gray;
   cursor: pointer;

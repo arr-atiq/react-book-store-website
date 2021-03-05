@@ -1,8 +1,12 @@
+html {
+    margin:    0 auto;
+    max-width: 1200px;
+}
 .card-product{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 15px;
     margin-top: 20px; 
-    margin-left: 50px;
 }
 .card-main{
     width: 380px;

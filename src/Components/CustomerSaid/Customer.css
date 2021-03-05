@@ -2,7 +2,8 @@
     width: 700px;
     height: 800px;
     margin-top: 50px;
-    margin-left: 350px;
+    margin-left: 250px;
+    margin-bottom: 50px;
     background-color: whitesmoke;
 }
 .backgroundDiv .customer-title h1{
@@ -16,7 +17,7 @@
 }
 .mainDiv{
    background-color: transparent;
-   margin-top: -450px;
+   margin-top: -550px;
 }
 .customer-says{
     display: grid;

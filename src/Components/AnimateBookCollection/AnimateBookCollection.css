@@ -4,7 +4,10 @@
     margin: 0;
     box-sizing: border-box
 }
-
+html {
+    margin:    0 auto;
+    max-width: 1200px;
+}
 body {
     font-family: 'Lato', sans-serif;
     padding: 30px;
