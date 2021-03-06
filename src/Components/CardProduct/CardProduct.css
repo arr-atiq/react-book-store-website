@@ -1,18 +1,17 @@
-html {
-    margin:    0 auto;
-    max-width: 1200px;
+body {
+    margin:0 auto;
+    max-width: 1300px;
 }
 .card-product{
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
-    grid-gap: 15px;
-    margin-top: 20px; 
+    grid-gap: 10px;
+    
 }
 .card-main{
     width: 380px;
     box-sizing: border-box;
     box-shadow: 5px 5px 15px lightgray;
-    
 }
 .card-image img{
     width: 379px;
@@ -60,4 +59,28 @@ html {
 .mainbtn-pricesDiv p{
     margin-top: 14px;
     font-weight: bold;
+}
+
+@media screen and (max-width:600px){
+    .card-product{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        margin-top: 10px; 
+    }
+}
+@media screen and (min-width:992px){
+    .card-product{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        margin-top: 10px; 
+        margin-left: 2%;
+    }
+}
+@media screen and (min-width:1200px){
+    .card-product{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        margin-top: 10px; 
+        width: 100%;
+    }
 }

@@ -65,3 +65,26 @@ body {
     border: 3px dotted palevioletred;
     padding: 30px;
 }
+
+@media screen and (max-width:600px){
+    .project-counter ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .project-counter li{
+        margin-left: 40%;
+    }
+}
+@media screen and (min-width:992px){
+    .project-counter ul {
+        list-style-type: none;
+        display: flex;
+    }
+    .project-counter li {
+        width: 33.33%;;
+        height: 100%;
+        padding: 30px 0px;
+        text-align: center;
+    }
+}

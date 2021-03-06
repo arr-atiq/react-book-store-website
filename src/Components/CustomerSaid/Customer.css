@@ -21,12 +21,12 @@
 }
 .customer-says{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    margin-right: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid: gap 5px; 
+    /* margin-right: 20px; */
 }
 .customer-main{
     display: flex;
-    margin-left: 15px;
 }
 .card-customer-image img{
     width: 120px;
@@ -75,4 +75,63 @@
     margin-left: 50%;
     color: orange;
     cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .customer-says{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .backgroundDiv{
+        width: 400px;
+        height: 800px;
+        margin-top: 50px;
+        margin-left: 20px;
+        margin-bottom: 120px;
+        background-color: whitesmoke;
+    }
+    .backgroundDiv .customer-title h1{
+        padding: 10px;
+        text-align: center;
+    }
+    .backgroundDiv .customer-title p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:992px){
+    .customer-says{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .backgroundDiv{
+        width: 700px;
+        height: 800px;
+        margin-top: 50px;
+        margin-left: 130px;
+        margin-bottom: 120px;
+        background-color: whitesmoke;
+    }
+    .backgroundDiv .customer-title h1{
+        padding: 10px;
+        text-align: center;
+    }
+    .backgroundDiv .customer-title p{
+        text-align: center;
+    }
+}
+@media screen and (min-width:1200px){
+    .backgroundDiv{
+        width: 700px;
+        height: 800px;
+        margin: 50px 0 50px 250px;
+        background-color: whitesmoke;
+    }
+    .customer-says{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        margin-right: 20px;
+    }
 }
